@@ -1,0 +1,7 @@
+,spoof,takeover,lookalike,tamper
+Content-only,1.0,0.983,1.0,1.0
+Auth-only (crypto),0.888,0.0,0.0,0.0
+Simple combo,0.986,0.303,0.786,0.763
+Behavior-only,1.0,0.634,0.983,0.712
+Risk (behavior+content),0.895,0.762,0.913,0.888
+FUSION (ours),1.0,0.762,0.997,1.0

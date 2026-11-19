@@ -1,0 +1,19 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=corp.example;
+ i=@corp.example; q=dns/txt; s=s1; t=1795068264; h=from : to : subject
+ : date; bh=TOaqjstZtcHSrMvtInCZgRnp36juQ8GBgOg6XSeqmsI=;
+ b=Pej5JhdaTasoxIM3hGFenhwL0bqMF2/ekpbP175Oc5WZSmCkDEry+ZiCR2RSOQm4zbVp6
+ 8GiXbSXw3BXqGCn8JxPwDRdFuxcpo8JDWv7sQEdC601dc9cLwwcJL33Mv6GU+G+q7A17qyx
+ ehHh2gIPI4aLXDR8/jFttjKO6EmyU/0oDTYy0Gid7HsN6P3I1C+aps3HHmoRAHo2+WNfdtV
+ YAZ2tLTIUrh81T/VQLXtrW/OB8J45wV2K8ZXEIgMIElBdTjnHjoKmYp8Y9qHDUP7EpUJ3rb
+ dDoUs3GZmRgORSsEgBJN9kTMs2z9Nscz72nlSSRHquFxXOKltvt0CFBdIdqw==
+Return-Path: <alice@corp.example>
+Received: from mail.corp.example ([203.0.113.7]) by mx.corp.example; Tue, 17 Nov 2026 03:12:00 +0000
+From: alice@corp.example
+To: me@corp.example
+Subject: Quick favour
+Date: Tue, 17 Nov 2026 03:12:00 +0000
+Message-ID: <758380600@corp.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Are you at your desk? I need you to wire $4,800 to a new vendor today and keep this confidential. I am in a meeting and cannot talk.

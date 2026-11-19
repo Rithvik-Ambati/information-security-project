@@ -1,0 +1,6 @@
+name,thr,val_f1,val_fpr
+"max(risk, 1-trust)",0.84,0.8418,0.0
+"max(risk, integrity-rule)",0.02,0.7599,0.0767
+"LR[risk, 1-trust]",0.68,0.8418,0.0
+"LR[risk, trust checks]",0.62,0.9384,0.0026
+"GB[risk, trust checks]",0.28,0.9436,0.0

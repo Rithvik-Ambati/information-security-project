@@ -1,0 +1,7 @@
+,F1,R,FPR,AUC,PPV1
+A. Content-only (TF-IDF+LR),0.9586,0.9434,0.0061,0.9974,0.6184
+B. Auth-only (crypto Trust),0.3799,0.2364,0.0017,0.823,0.7097
+"C. Simple combo max(A, B)",0.8349,0.725,0.0017,0.9773,0.8476
+Ablation: behavior-only (no text),0.8757,0.8126,0.0107,0.9892,0.4375
+Ablation: risk (behavior+content),0.9027,0.8288,0.0012,0.9203,0.8801
+FUSION (selected),0.9627,0.9421,0.0037,0.974,0.7266

@@ -1,0 +1,5 @@
+model,text backend,F1,takeover recall
+Risk (behavior+content),TF-IDF,0.9243,0.7621
+Risk (behavior+content),DistilBERT,0.9743,0.969
+FUSION,TF-IDF,0.9626,0.7621
+FUSION,DistilBERT,0.9764,0.9552

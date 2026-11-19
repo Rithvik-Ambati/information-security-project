@@ -1,0 +1,19 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=c0rp.example;
+ i=@c0rp.example; q=dns/txt; s=s1; t=1795068264; h=from : to : subject
+ : date; bh=TOaqjstZtcHSrMvtInCZgRnp36juQ8GBgOg6XSeqmsI=;
+ b=TQT0Bj1Eni0yhHEguVEKLCl41vLqSFxtRP4A7gPjfXN+nXhs8bzqQ+ry9kftR2Dg8L0rn
+ zfBvY7kBOPPogubY6ompP+gyMLEOdX4ADO0cvCsm+s6/CxRAhn7nrFJju49oTpD3OIFlKDy
+ veR1QwcRHk0HGf9nqDXwMx+3TaJhAhfgP4erYqil3L5gv2+fRI13KYOxCRli5M2McxiTegg
+ rhl2XvfaFyuuo0TK3NPstoD+XMU1w8NsxcIiaNGURtVe+u3eSh/z6WO3XJTKdfY+DtFYSBI
+ bPX/tOZ0KRMTppXKd2QlCEwxtZj/MSMRpFesRLt/VELlxNQ3R0FNar7o9eRg==
+Return-Path: <alice@c0rp.example>
+Received: from mail.c0rp.example ([203.0.113.7]) by mx.corp.example; Tue, 17 Nov 2026 03:12:00 +0000
+From: alice@c0rp.example
+To: me@corp.example
+Subject: Quick favour
+Date: Tue, 17 Nov 2026 03:12:00 +0000
+Message-ID: <758380600@c0rp.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Are you at your desk? I need you to wire $4,800 to a new vendor today and keep this confidential. I am in a meeting and cannot talk.

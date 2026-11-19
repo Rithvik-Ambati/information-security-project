@@ -1,0 +1,16 @@
+split,type,n
+history,legit,6193
+history,spoof,385
+history,takeover,392
+history,lookalike,356
+history,tamper,388
+train,legit,4623
+train,spoof,265
+train,takeover,306
+train,lookalike,307
+train,tamper,285
+test,legit,4609
+test,spoof,294
+test,takeover,290
+test,lookalike,299
+test,tamper,295

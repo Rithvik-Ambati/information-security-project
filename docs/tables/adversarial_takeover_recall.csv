@@ -1,0 +1,7 @@
+,content-only,behavior-only,risk (behavior+content),FUSION (risk+trust)
+none,0.983,0.634,0.762,0.762
+keywords,0.983,0.559,0.762,0.762
+padding,0.779,0.393,0.286,0.286
+style mimic,0.752,0.059,0.3,0.3
+relationship,0.983,0.69,0.762,0.762
+full mimic,0.752,0.048,0.297,0.297

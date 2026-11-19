@@ -1,0 +1,230 @@
+{
+ "0": {
+  "content-only": {
+   "recall_all": 0.9957555178268251,
+   "recall_takeover": 0.9827586206896551,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9807692307692307,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 1.0,
+   "recall_tamper": 1.0
+  },
+  "behavior-only": {
+   "recall_all": 0.833616298811545,
+   "recall_takeover": 0.6344827586206897,
+   "FPR": 0.010848340203948795,
+   "F1": 0.8886877828054298,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9832775919732442,
+   "recall_tamper": 0.711864406779661
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.865025466893039,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.9242630385487528,
+   "recall_spoof": 0.8945578231292517,
+   "recall_lookalike": 0.9130434782608695,
+   "recall_tamper": 0.888135593220339
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.9405772495755518,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.003471468865263615,
+   "F1": 0.9626411815812337,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9966555183946488,
+   "recall_tamper": 1.0
+  }
+ },
+ "1": {
+  "content-only": {
+   "recall_all": 0.9949066213921901,
+   "recall_takeover": 0.9827586206896551,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9803429527394396,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 1.0,
+   "recall_tamper": 0.9966101694915255
+  },
+  "behavior-only": {
+   "recall_all": 0.7894736842105263,
+   "recall_takeover": 0.5586206896551724,
+   "FPR": 0.010848340203948795,
+   "F1": 0.8619091751621872,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9732441471571907,
+   "recall_tamper": 0.6203389830508474
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.865025466893039,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.9242630385487528,
+   "recall_spoof": 0.8945578231292517,
+   "recall_lookalike": 0.9130434782608695,
+   "recall_tamper": 0.888135593220339
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.9405772495755518,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.003471468865263615,
+   "F1": 0.9626411815812337,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9966555183946488,
+   "recall_tamper": 1.0
+  }
+ },
+ "2": {
+  "content-only": {
+   "recall_all": 0.8972835314091681,
+   "recall_takeover": 0.7793103448275862,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9288224956063269,
+   "recall_spoof": 0.9319727891156463,
+   "recall_lookalike": 0.939799331103679,
+   "recall_tamper": 0.9355932203389831
+  },
+  "behavior-only": {
+   "recall_all": 0.7546689303904923,
+   "recall_takeover": 0.3931034482758621,
+   "FPR": 0.010848340203948795,
+   "F1": 0.8398677373641946,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9832775919732442,
+   "recall_tamper": 0.6338983050847458
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.6230899830220713,
+   "recall_takeover": 0.28620689655172415,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.7645833333333333,
+   "recall_spoof": 0.7278911564625851,
+   "recall_lookalike": 0.7357859531772575,
+   "recall_tamper": 0.735593220338983
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.8225806451612904,
+   "recall_takeover": 0.28620689655172415,
+   "FPR": 0.003471468865263615,
+   "F1": 0.8959778085991679,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9933110367892977,
+   "recall_tamper": 1.0
+  }
+ },
+ "3": {
+  "content-only": {
+   "recall_all": 0.8752122241086587,
+   "recall_takeover": 0.7517241379310344,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9164444444444444,
+   "recall_spoof": 0.9183673469387755,
+   "recall_lookalike": 0.9297658862876255,
+   "recall_tamper": 0.8983050847457628
+  },
+  "behavior-only": {
+   "recall_all": 0.5432937181663837,
+   "recall_takeover": 0.05862068965517241,
+   "FPR": 0.010848340203948795,
+   "F1": 0.6852248394004282,
+   "recall_spoof": 0.9965986394557823,
+   "recall_lookalike": 0.9632107023411371,
+   "recall_tamper": 0.1423728813559322
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.5925297113752123,
+   "recall_takeover": 0.3,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.7409766454352441,
+   "recall_spoof": 0.7006802721088435,
+   "recall_lookalike": 0.6989966555183946,
+   "recall_tamper": 0.6644067796610169
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.8251273344651953,
+   "recall_takeover": 0.3,
+   "FPR": 0.003471468865263615,
+   "F1": 0.8975069252077562,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9899665551839465,
+   "recall_tamper": 1.0
+  }
+ },
+ "4": {
+  "content-only": {
+   "recall_all": 0.9957555178268251,
+   "recall_takeover": 0.9827586206896551,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9807692307692307,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 1.0,
+   "recall_tamper": 1.0
+  },
+  "behavior-only": {
+   "recall_all": 0.8463497453310697,
+   "recall_takeover": 0.6896551724137931,
+   "FPR": 0.010848340203948795,
+   "F1": 0.8961797752808989,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.979933110367893,
+   "recall_tamper": 0.711864406779661
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.865025466893039,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.9242630385487528,
+   "recall_spoof": 0.8945578231292517,
+   "recall_lookalike": 0.9130434782608695,
+   "recall_tamper": 0.888135593220339
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.9405772495755518,
+   "recall_takeover": 0.7620689655172413,
+   "FPR": 0.003471468865263615,
+   "F1": 0.9626411815812337,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9966555183946488,
+   "recall_tamper": 1.0
+  }
+ },
+ "5": {
+  "content-only": {
+   "recall_all": 0.8718166383701188,
+   "recall_takeover": 0.7517241379310344,
+   "FPR": 0.008895638967238013,
+   "F1": 0.9145146927871772,
+   "recall_spoof": 0.9183673469387755,
+   "recall_lookalike": 0.9230769230769231,
+   "recall_tamper": 0.8915254237288136
+  },
+  "behavior-only": {
+   "recall_all": 0.5229202037351444,
+   "recall_takeover": 0.04827586206896552,
+   "FPR": 0.010848340203948795,
+   "F1": 0.6681127982646421,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9498327759197325,
+   "recall_tamper": 0.08135593220338982
+  },
+  "risk (behavior+content)": {
+   "recall_all": 0.5840407470288624,
+   "recall_takeover": 0.296551724137931,
+   "FPR": 0.0017357344326318074,
+   "F1": 0.7342582710779082,
+   "recall_spoof": 0.6938775510204082,
+   "recall_lookalike": 0.68561872909699,
+   "recall_tamper": 0.6542372881355932
+  },
+  "FUSION (risk+trust)": {
+   "recall_all": 0.8242784380305602,
+   "recall_takeover": 0.296551724137931,
+   "FPR": 0.003471468865263615,
+   "F1": 0.8969976905311778,
+   "recall_spoof": 1.0,
+   "recall_lookalike": 0.9899665551839465,
+   "recall_tamper": 1.0
+  }
+ }
+}

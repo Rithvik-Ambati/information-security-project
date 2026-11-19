@@ -1,0 +1,19 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=corp.example;
+ i=@corp.example; q=dns/txt; s=s1; t=1795068264; h=from : to : subject
+ : date; bh=XjJ9r9kmrCsz1+3R6Q8/HJmbZDT4uOQzT/ifb/virh4=;
+ b=WoYu3EcMk4ejw3sJ1xIDqcxDW/EKRWoO6Py1Nv3wmjgpXIBVUxgbDASLruhAJZ8EPUcOb
+ Q/O+bhSbtC+yJdTHDa2J59ZY4VvawmX5ZaGGQttTNvB4NssNzgudX42Hz87IMm346+FO+Nq
+ 1oo0DIvIL3DPlYOUd1ThU9cNmseVrDG0r+lM7UFiZI2hYHzXwtxpOsQ4lFXI3U9JdPioKtl
+ cVJj2/60wszEghHKxyG6UJwC+IXdyQDdpBToXuE47debb0EdvBiX5KnpFaQcnxgAqUscnlw
+ pKybl/1T5zFLkIBDfymTgMejfhvbT6UzH/HymxRJmiVMZhBupvOBrTsuJIMA==
+Return-Path: <alice@corp.example>
+Received: from mail.corp.example ([203.0.113.7]) by mx.corp.example; Mon, 16 Nov 2026 10:15:00 +0000
+From: alice@corp.example
+To: me@corp.example
+Subject: Weekly report
+Date: Mon, 16 Nov 2026 10:15:00 +0000
+Message-ID: <957771636@corp.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hi, attaching the weekly report. Let me know if you have questions. Thanks, Alice

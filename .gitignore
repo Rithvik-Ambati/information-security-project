@@ -1,0 +1,10 @@
+# Raw corpora: huge, third-party terms of use, and Nazario contains live phishing payloads (flagged by antivirus)
+data/raw/
+# Generated datasets and caches (rebuild with scripts/build_dataset.py)
+data/processed*/
+*.pkl
+__pycache__/
+*.pyc
+.venv/
+.streamlit/
+.claude/
